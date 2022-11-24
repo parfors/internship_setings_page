@@ -11,7 +11,7 @@ export default function Settings() {
             <ul className={css.settings_list}>
               <li className={css.settings_item}>
                 <div className={css.settings_label_wrap}>
-                  <label className={css.settings_label} for="password">
+                  <label className={css.settings_label} htmlFor="password">
                     <span className={css.settings_label_span}>
                       {" "}
                       Зміна паролю
@@ -36,7 +36,7 @@ export default function Settings() {
               </li>
               <li className={css.settings_item}>
                 <div className={css.settings_label_wrap}>
-                  <label className={css.settings_label} for="name">
+                  <label className={css.settings_label} htmlFor="name">
                     <span className={css.settings_label_span}>
                       Особисті дані{" "}
                     </span>
@@ -57,7 +57,7 @@ export default function Settings() {
               </li>
               <li className={css.settings_item}>
                 <div className={css.settings_label_wrap}>
-                  <label className={css.settings_label} for="email">
+                  <label className={css.settings_label} htmlFor="email">
                     <span className={css.settings_label_span}>
                       Зміна Email{" "}
                     </span>
@@ -90,7 +90,10 @@ export default function Settings() {
               </li>
               <li className={css.settings_item}>
                 <div className={css.settings_label_wrap}>
-                  <label className={css.settings_label} for="telegram_connect">
+                  <label
+                    className={css.settings_label}
+                    htmlFor="telegram_connect"
+                  >
                     <span className={css.settings_label_span}>
                       Telegram підключення
                     </span>
