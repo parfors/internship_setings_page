@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.1efa3d2b.css",
-    "main.js": "/react-gh-pages/static/js/main.cd2ddae5.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.1efa3d2b.css.map": "/react-gh-pages/static/css/main.1efa3d2b.css.map",
-    "main.cd2ddae5.js.map": "/react-gh-pages/static/js/main.cd2ddae5.js.map"
+    "main.css": "/internship_setings_page/static/css/main.1efa3d2b.css",
+    "main.js": "/internship_setings_page/static/js/main.cd2ddae5.js",
+    "index.html": "/internship_setings_page/index.html",
+    "main.1efa3d2b.css.map": "/internship_setings_page/static/css/main.1efa3d2b.css.map",
+    "main.cd2ddae5.js.map": "/internship_setings_page/static/js/main.cd2ddae5.js.map"
   },
   "entrypoints": [
     "static/css/main.1efa3d2b.css",
