@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/internship_setings_page/static/css/main.1efa3d2b.css",
-    "main.js": "/internship_setings_page/static/js/main.cd2ddae5.js",
+    "main.css": "/internship_setings_page/static/css/main.2f659219.css",
+    "main.js": "/internship_setings_page/static/js/main.e0de73db.js",
     "index.html": "/internship_setings_page/index.html",
-    "main.1efa3d2b.css.map": "/internship_setings_page/static/css/main.1efa3d2b.css.map",
-    "main.cd2ddae5.js.map": "/internship_setings_page/static/js/main.cd2ddae5.js.map"
+    "static/media/file_svg.svg": "/internship_setings_page/static/media/file_svg.5c82e6ccafb9003bc50e2dc0b6a00fb6.svg",
+    "static/media/plus-circle_svg.svg": "/internship_setings_page/static/media/plus-circle_svg.56f9d5c7302bf8bf2326db0473d8ce48.svg",
+    "static/media/edit_svg.svg": "/internship_setings_page/static/media/edit_svg.6e4bff9e018ce8a1a30b3cd019ad2842.svg",
+    "static/media/delete_svg.svg": "/internship_setings_page/static/media/delete_svg.7dd3bf3332ada32e26bd8ea941d8b399.svg",
+    "main.2f659219.css.map": "/internship_setings_page/static/css/main.2f659219.css.map",
+    "main.e0de73db.js.map": "/internship_setings_page/static/js/main.e0de73db.js.map"
   },
   "entrypoints": [
-    "static/css/main.1efa3d2b.css",
-    "static/js/main.cd2ddae5.js"
+    "static/css/main.2f659219.css",
+    "static/js/main.e0de73db.js"
   ]
 }
