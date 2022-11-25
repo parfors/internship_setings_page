@@ -1,6 +1,7 @@
 .settings_container {
-  max-width: 800px;
+  max-width: 839px;
   margin: 0 auto;
+  background-color: #ffffff;
 }
 
 .settings_header {
@@ -17,7 +18,7 @@
 .settings_header::after {
   content: "";
   display: block;
-  max-width: 806 px;
+  max-width: 806px;
   height: 1px;
   background-color: #cacaca;
   margin-top: 14px;
@@ -25,7 +26,6 @@
 
 .settings_form {
   padding: 34px 0 42px 0;
-
   max-width: 776px;
   margin: 0 auto;
   background: #ffffff;

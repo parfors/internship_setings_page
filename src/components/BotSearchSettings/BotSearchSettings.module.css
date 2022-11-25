@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+.settings_container {
+  max-width: 839px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.settings_header {
+  padding-top: 38px;
+  margin-top: 0;
+  margin-bottom: 8px;
+  text-align: center;
+  color: #9f9f9f;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.39;
+}
+
+.bot_settings {
+  display: flex;
+  max-width: 776px;
+  height: 531px;
+  margin: 0 auto;
+  padding-top: 56px;
+  padding-left: 38px;
+  padding-right: 39px;
+  background: #ffffff;
+  box-shadow: 0px 0px 50px rgba(0, 56, 255, 0.1);
+  border-radius: 15px;
+}
+
+.bot_settings_title {
+  width: 86px;
+  margin-right: 19px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #9f9f9f;
+}
+.bot_form {
+  flex-grow: 1;
+}
+
+.bot_form_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.bot_form_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.bot_form_text_input {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 450px;
+  padding: 7px 0 8px 8px;
+  margin-right: 7px;
+  background-color: #ebebeb;
+  border-radius: 5px;
+  border: none;
+}
+.bot_form_text_input::placeholder {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #000000;
+}
+
+.bot_form_file_button,
+.bot_form_edit_button,
+.bot_form_delete_button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.bot_form_icon_file,
+.bot_form_icon_edit,
+.bot_form_icon_delete {
+  color: #9f9f9f;
+}
+
+.bot_form_icon_palus {
+  margin-left: 7px;
+  width: 16px;
+  height: 16px;
+}
+
+.bot_form_checkbox_input {
+  margin-right: 8px;
+}
+
+.bot_form_file_button {
+  margin-right: 7px;
+}
+.bot_form_edit_button {
+  margin-right: 8px;
+}
+
+.bot_form_submit_button {
+  display: flex;
+  align-items: center;
+  background-color: #5266ff;
+  border-radius: 5px;
+  border: none;
+  width: 101px;
+  height: 31px;
+  padding-left: 19px;
+  padding-right: 8px;
+  cursor: pointer;
+  color: #ffffff;
+}
