@@ -23,9 +23,14 @@ export default function BotSearchSettings() {
                   className={css.bot_form_text_input}
                 />
                 <input
+                  id="checkbox1"
                   type="checkbox"
                   className={css.bot_form_checkbox_input}
                 />
+                <label
+                  htmlFor="checkbox1"
+                  className={css.bot_form_checkbox_label}
+                ></label>
                 <button type="button" className={css.bot_form_edit_button}>
                   <IconEdit className={css.bot_form_icon_edit} />
                 </button>
@@ -43,9 +48,14 @@ export default function BotSearchSettings() {
                   className={css.bot_form_text_input}
                 />
                 <input
+                  id="checkbox2"
                   type="checkbox"
                   className={css.bot_form_checkbox_input}
                 />
+                <label
+                  htmlFor="checkbox2"
+                  className={css.bot_form_checkbox_label}
+                ></label>
                 <button type="button" className={css.bot_form_edit_button}>
                   <IconEdit className={css.bot_form_icon_edit} />
                 </button>
@@ -63,9 +73,14 @@ export default function BotSearchSettings() {
                   className={css.bot_form_text_input}
                 />
                 <input
+                  id="checkbox3"
                   type="checkbox"
                   className={css.bot_form_checkbox_input}
                 />
+                <label
+                  htmlFor="checkbox3"
+                  className={css.bot_form_checkbox_label}
+                ></label>
                 <button type="button" className={css.bot_form_edit_button}>
                   <IconEdit className={css.bot_form_icon_edit} />
                 </button>
@@ -76,7 +91,7 @@ export default function BotSearchSettings() {
             </ul>
             <button type="submit" className={css.bot_form_submit_button}>
               Додати
-              <IconPlus className={css.bot_form_icon_palus} />
+              <IconPlus className={css.bot_form_icon_plus} />
             </button>
           </form>
         </div>

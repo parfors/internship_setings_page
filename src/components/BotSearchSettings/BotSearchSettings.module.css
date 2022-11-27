@@ -26,7 +26,7 @@
   margin: 0 auto;
   padding-top: 56px;
   padding-left: 38px;
-  padding-right: 39px;
+  padding-right: 34px;
   background: #ffffff;
   box-shadow: 0px 0px 50px rgba(0, 56, 255, 0.1);
   border-radius: 15px;
@@ -59,9 +59,11 @@
 .bot_form_text_input {
   box-sizing: border-box;
   display: inline-block;
-  width: 450px;
+  flex-grow: 1;
+  max-width: 450px;
   padding: 7px 0 8px 8px;
   margin-right: 7px;
+
   background-color: #ebebeb;
   border-radius: 5px;
   border: none;
@@ -82,20 +84,17 @@
   background-color: transparent;
   cursor: pointer;
 }
+
 .bot_form_icon_file,
 .bot_form_icon_edit,
 .bot_form_icon_delete {
   color: #9f9f9f;
 }
 
-.bot_form_icon_palus {
+.bot_form_icon_plus {
   margin-left: 7px;
   width: 16px;
   height: 16px;
-}
-
-.bot_form_checkbox_input {
-  margin-right: 8px;
 }
 
 .bot_form_file_button {
@@ -117,4 +116,46 @@
   padding-right: 8px;
   cursor: pointer;
   color: #ffffff;
+}
+
+.bot_form_checkbox_input {
+  height: 0;
+  width: 0;
+  margin: 0;
+  visibility: hidden;
+}
+
+.bot_form_checkbox_label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 47px;
+  height: 24px;
+  margin-right: 8px;
+
+  background: #ffffff;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+  border: 2px solid #ff4a4a;
+}
+
+.bot_form_checkbox_label:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  width: 14px;
+  height: 14px;
+  background: #ff4a4a;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+.bot_form_checkbox_input:checked + .bot_form_checkbox_label {
+  border: 2px solid #00a807;
+}
+
+.bot_form_checkbox_input:checked + .bot_form_checkbox_label:after {
+  transform: translateX(20px);
+  background: #00a807;
 }
