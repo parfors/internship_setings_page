@@ -159,3 +159,36 @@
   transform: translateX(20px);
   background: #00a807;
 }
+
+@media screen and (max-width: 776px) {
+  .settings_container {
+    padding: 0 15px;
+  }
+  .settings_header {
+    margin-left: 0;
+  }
+
+  .bot_settings {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+  }
+  .bot_settings_title {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .bot_form_text_input {
+    min-width: 100px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .bot_form_item {
+    flex-wrap: wrap;
+  }
+  .bot_form_delete_button,
+  .bot_form_edit_button,
+  .bot_form_checkbox_label {
+    margin-top: 5px;
+  }
+}
