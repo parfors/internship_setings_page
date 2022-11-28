@@ -1,7 +1,7 @@
 {
-  "name": "internship_setings_page",
+  "name": "internship_settings_page",
   "version": "0.1.0",
-  "homepage": "https://parfors.github.io/internship_setings_page",
+  "homepage": "https://parfors.github.io/internship_settings_page",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
