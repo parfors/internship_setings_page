@@ -43,7 +43,7 @@ export default function BotSearchSettings() {
                   <IconFile className={css.bot_form_icon_file} />
                 </button>
                 <input
-                  placeholder="Маріхуана"
+                  placeholder="Порошенко Петро"
                   type="text"
                   className={css.bot_form_text_input}
                 />

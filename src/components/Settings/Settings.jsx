@@ -131,7 +131,10 @@ export default function Settings() {
               </a>
               , після підключення Telegram, необхідно активувати його в
               особистому обліковому записі. Для запуску бота натисніть Start у
-              додатку Telrgram
+              додатку{" "}
+              <a className={css.settings_paragraph_link} href="/#">
+                Telegram
+              </a>
             </p>
           </div>
         </div>

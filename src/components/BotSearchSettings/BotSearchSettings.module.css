@@ -4,11 +4,11 @@
 .settings_container {
   max-width: 839px;
   margin: 0 auto;
+  padding-bottom: 72px;
   background-color: #ffffff;
 }
 
 .settings_header {
-  padding-top: 38px;
   margin-top: 0;
   margin-bottom: 8px;
   text-align: center;
@@ -162,7 +162,7 @@
 
 @media screen and (max-width: 776px) {
   .settings_container {
-    padding: 0 15px;
+    padding: 0 15px 72px 15px;
   }
   .settings_header {
     margin-left: 0;
