@@ -23,11 +23,12 @@ export default function Settings() {
                     placeholder="Новий пароль"
                     id="password"
                     className={css.settings_input}
-                    type=""
+                    type="password"
                   />
                   <input
                     placeholder="Повтор нового паролю"
                     className={css.settings_input}
+                    type="password"
                   />
                   <button className={css.setting_form_button}>
                     Застосувати
@@ -47,11 +48,12 @@ export default function Settings() {
                     placeholder="Ім`я"
                     id="name"
                     className={css.settings_input}
-                    type=""
+                    type="text"
                   />
                   <input
                     placeholder="Прізвище"
                     className={css.settings_input}
+                    type="text"
                   />
                 </div>
               </li>
@@ -68,7 +70,7 @@ export default function Settings() {
                     placeholder="Email"
                     id="email"
                     className={css.settings_input}
-                    type=""
+                    type="email"
                   />
                   <button
                     className={`${css.setting_form_button} ${css.verification_button__margin}`}
@@ -106,7 +108,7 @@ export default function Settings() {
                     placeholder="Введіть Ваш ID Telegram"
                     id="telegram_connect"
                     className={css.settings_input}
-                    type=""
+                    type="text"
                   />
                   <button className={css.setting_form_button}>
                     Застосувати
